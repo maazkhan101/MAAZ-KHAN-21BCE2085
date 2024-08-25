@@ -16,10 +16,8 @@ git clone https://github.com/maazkhan101/MAAZ-KHAN-21BCE2085.git
 </br>
 cd project
 
-
-
 <h3>1) Server Setup:</h3>
-</br>
+
 Navigate to the server directory and install the necessary dependencies:
     </br>
     cd server
@@ -39,7 +37,7 @@ The server will run on ws://localhost:8080.
 <h3>2) Client Setup</h3>
 
 Navigate to the client directory:
-    </br>
+    
     cd ../client
 
 Open the index.html file in your browser:
