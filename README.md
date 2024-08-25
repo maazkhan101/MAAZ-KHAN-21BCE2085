@@ -12,8 +12,10 @@ Turn-Based Chess-like Game with WebSocket Communication This project is a real-t
 ### 1. Clone the Repository
 Clone this repository to your local machine using:
 
-git clone https://github.com/maazkhan101/MAAZ-KHAN-21BCE2085.git
-</br>
+
+
+###git clone https://github.com/maazkhan101/MAAZ-KHAN-21BCE2085.git
+
 cd project
 
 <h3>1) Server Setup:</h3>
