@@ -19,8 +19,9 @@ cd project
 
 
 <h3>1) Server Setup:</h3>
-
+</br>
 Navigate to the server directory and install the necessary dependencies:
+    </br>
     cd server
     npm install
 
@@ -28,6 +29,7 @@ Navigate to the server directory and install the necessary dependencies:
 Start the Server:
 
 Start the WebSocket server:
+</br>
    node server.js
 
 
@@ -37,6 +39,7 @@ The server will run on ws://localhost:8080.
 <h3>2) Client Setup</h3>
 
 Navigate to the client directory:
+    </br>
     cd ../client
 
 Open the index.html file in your browser:
