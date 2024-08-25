@@ -66,10 +66,10 @@ The game ends when one player eliminates all of the opponent's characters.
 <b>
 <b>
 Game Rules
-</b>
   <br>
-### Game Setup
-
+Game Setup
+</b>
+</br>
 - The game is played on a 5x5 grid by two players.
 - Each player controls 5 characters: a mix of Pawns, Hero1, and Hero2.
 - Players arrange their characters on their respective starting rows.
