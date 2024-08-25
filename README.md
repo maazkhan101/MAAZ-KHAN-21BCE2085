@@ -56,6 +56,7 @@ The game is played between two players. Each player controls five characters, wh
 Players take turns to make moves according to the game rules described below.
 <b>
 Game Flow:
+
 </b>
 On their turn, a player clicks on one of their characters and selects a valid move.
 The game state updates in real time, displaying the new positions of the characters.
@@ -65,11 +66,13 @@ The game ends when one player eliminates all of the opponent's characters.
 Game Rules
 </b>
 
+
 Grid: The game is played on a 5x5 grid.
 
 <b>
 Characters:
 </b>
+
 Pawn: Moves one block in any direction.
 Hero1: Moves two blocks straight in any direction.
 Hero2: Moves two blocks diagonally in any direction.
@@ -78,6 +81,7 @@ Winning Condition: The game ends when one player eliminates all of the opponent'
 <b>
 WebSocket Communication
 </b>
+
 The server and client communicate via WebSocket events:
 
 Game Initialization: Sets up the game board and character positions.
@@ -86,20 +90,25 @@ Game State Update: Broadcasts the updated game state to both players.
 Invalid Move Notification: Alerts the player if their move is invalid.
 Game Over Notification: Announces the winner and offers a rematch option.
 
+
 <b>
 Future Enhancements
 </b>
+
 Additional Characters: Implement Hero3 and other unique characters.
 AI Opponent: Add a basic AI for single-player mode.
 Spectator Mode: Allow other users to watch ongoing games.
 Ranking System: Track player performance over multiple games.
 <b>
+
 Edge Cases Handled
 </b>
+
 Simultaneous Moves: Prevents multiple clients from making moves simultaneously.
 Disconnections: Handles disconnections and reconnections during an ongoing game.
 Move Validation: Ensures moves are valid before updating the game state.
 
+</br>
 <b>
 Contact
 </b>                    
