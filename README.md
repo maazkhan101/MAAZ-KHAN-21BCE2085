@@ -64,51 +64,38 @@ The game ends when one player eliminates all of the opponent's characters.
 
 </br>
 <b>
-Game Rules
-</b>
+## Game Rules
+
+### Game Setup
+
+- The game is played on a 5x5 grid by two players.
+- Each player controls 5 characters: a mix of Pawns, Hero1, and Hero2.
+- Players arrange their characters on their respective starting rows.
+
+### Characters and Movement
+
+1. *Pawn*:
+   - Moves one block in any direction (Left, Right, Forward, Backward).
+   - Example command: P1:L (Pawn 1 moves Left).
+
+2. *Hero1*:
+   - Moves two blocks straight in any direction.
+   - Eliminates any opponent's character in its path.
+   - Example command: H1:F (Hero1 moves Forward).
+
+3. *Hero2*:
+   - Moves two blocks diagonally in any direction.
+   - Eliminates any opponent's character in its path.
+   - Example command: H2:BR (Hero2 moves Backward-Right).
+
+### Game Flow
+
+- Players alternate turns, making one move per turn.
+- If a character lands on an opponent's character, the opponent's character is removed.
+- Invalid moves are not allowed, and players must retry their turn if an invalid move is made.
+- The game ends when one player eliminates all of the opponent’s characters.
 
 </br>
-Grid: The game is played on a 5x5 grid.
-</br>
-<b>
-Characters:
-</b>
-</br>
-Pawn: Moves one block in any direction.
-Hero1: Moves two blocks straight in any direction.
-Hero2: Moves two blocks diagonally in any direction.
-Winning Condition: The game ends when one player eliminates all of the opponent's characters.
-</br>
-<b>
-WebSocket Communication
-</b>
-</br>
-The server and client communicate via WebSocket events:
-
-Game Initialization: Sets up the game board and character positions.
-Player Move: Sends the player's move command to the server.
-Game State Update: Broadcasts the updated game state to both players.
-Invalid Move Notification: Alerts the player if their move is invalid.
-Game Over Notification: Announces the winner and offers a rematch option.
-
-</br>
-<b>
-Future Enhancements
-</b>
-</br>
-Additional Characters: Implement Hero3 and other unique characters.
-AI Opponent: Add a basic AI for single-player mode.
-Spectator Mode: Allow other users to watch ongoing games.
-Ranking System: Track player performance over multiple games.
-<b>
-</br>
-Edge Cases Handled
-</b>
-</br>
-Simultaneous Moves: Prevents multiple clients from making moves simultaneously.
-Disconnections: Handles disconnections and reconnections during an ongoing game.
-Move Validation: Ensures moves are valid before updating the game state.
-
 </br>
 <b>
 Contact
