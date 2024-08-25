@@ -64,8 +64,10 @@ The game ends when one player eliminates all of the opponent's characters.
 
 </br>
 <b>
-## Game Rules
-
+<b>
+Game Rules
+</b>
+  <br>
 ### Game Setup
 
 - The game is played on a 5x5 grid by two players.
